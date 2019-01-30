@@ -14,8 +14,9 @@ Download [pre-built images for segmentation](https://drive.google.com/file/d/1uF
 (optional) Download [original nucleus dataset](http://andrewjanowczyk.com/wp-static/nuclei.tgz)
 
 
-## (optinal) Subsampling
-This function reduces image size by half (1024x1024) and changes format from tiff to jpg to reduce memory load
+## (optinal) Data preparation
+This function separates overrapping mask in a mask image.   
+Also, it reduces image size by half (1024x1024) and changes format from tiff to jpg to reduce memory load
 ```bash
    cd MASK_RCNN_ROOT/samples/nucleus
    python3 make_patch(erosion-dliation).py
