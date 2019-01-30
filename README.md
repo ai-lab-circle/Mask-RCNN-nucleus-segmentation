@@ -5,7 +5,6 @@ Experiment was
 Source coed was implemented on ubuntu 16.04, python3.5, CUDA9.0, and tensorflow1.12.0.
 
 
-![Alt text](~/Download/8867_500_f00018_original.png)
 
 ## Dataset
 
