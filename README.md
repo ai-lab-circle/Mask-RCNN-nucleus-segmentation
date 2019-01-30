@@ -6,9 +6,9 @@ Source coed was implemented on ubuntu 16.04, python3.5, CUDA9.0, and tensorflow1
 
 ## Dataset
 
-Download [pre-built images for segmentation](https://drive.google.com/file/d/1uF_hxZJZTh8eWSwYuCP8gMGQw3ZxYEwD/view?usp=sharing)   
+Download [pre-built images] for segmentation (https://drive.google.com/file/d/1uF_hxZJZTh8eWSwYuCP8gMGQw3ZxYEwD/view?usp=sharing)   
 ```bash
-   mv download_image  MASK_RCNN_ROOT/datasets/nuclues
+   mv downloaded_images  MASK_RCNN_ROOT/datasets/nuclues
 ```
 
 (optional) Download [original nucleus dataset](http://andrewjanowczyk.com/wp-static/nuclei.tgz)
