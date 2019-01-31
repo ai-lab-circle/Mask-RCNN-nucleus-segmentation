@@ -37,11 +37,11 @@ def auto_canny(image, sigma=0.33):
     # return the edged image
     return edged
 
-src_path = '../../datasets/original_images'
+src_path = '../../datasets/nucleus/original_images/'
 
 
-train_path = '../../datasets/train_images/'
-test_path = '../../datasets/test_images/'
+train_path = '../../datasets/nucleus/train_images/'
+test_path = '../../datasets/nucleus/val_images/'
 
 
 TEST_IMAGE_PATHS = os.listdir(src_path)
@@ -52,7 +52,7 @@ print(len(TEST_IMAGE_PATHS))
 #kimyy
 #read training/testing files
 
-f = open("../../datasets/train_w32_parent.txt", 'r')
+f = open("../../datasets/nucleus/train_w32_parent.txt", 'r')
 image_list = f.readlines()
 
 #define resize hight,weight
@@ -73,7 +73,7 @@ for image_path in TEST_IMAGE_PATHS:
     image = cv2.imread(src_path  +image_path, cv2.IMREAD_COLOR)
 
 
-    print(image.shape)
+    #print(image.shape)
     # kimyy
     # separate data file into training and testing files
     parent_name = filename[:5]
