@@ -1,14 +1,13 @@
 # Mask R-CNN for nucleus Detection and Segmentation (in progress)
 
 This source includes nucleui segmentation code using Mask-RCNN.
-Experiment was
-Source coed was implemented on ubuntu 16.04, python3.5, CUDA9.0, and tensorflow1.12.0.
+Code was implemented on ubuntu 16.04, python3.5, CUDA9.0, and tensorflow1.12.0.
 
 
 
 ## Dataset
 
-Download [pre-built images] for segmentation (https://drive.google.com/file/d/1uF_hxZJZTh8eWSwYuCP8gMGQw3ZxYEwD/view?usp=sharing)   
+Download [pre-built images](https://drive.google.com/file/d/1uF_hxZJZTh8eWSwYuCP8gMGQw3ZxYEwD/view?usp=sharing) for segmentation   
 ```bash
    mv downloaded_images  MASK_RCNN_ROOT/datasets/nuclues
 ```
@@ -17,7 +16,7 @@ Download [pre-built images] for segmentation (https://drive.google.com/file/d/1u
 
 
 ## (optinal) Data preparation
-This function separates overrapping mask in a mask image.   
+This function separates overrapping mask in a mask image using erosion and dilation algorithm (keneral size 7x7).   
 Also, it reduces image size by half (1024x1024) and changes format from tiff to jpg to reduce memory load
 ```bash
    cd MASK_RCNN_ROOT/samples/nucleus
