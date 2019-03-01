@@ -16,8 +16,7 @@ Download [preprocessed images](https://drive.google.com/file/d/1uF_hxZJZTh8eWSwY
 
 
 ## (optinal) Data preparation
-To make input data in Mask-RCNN, we separated masks(ground truths) in original mask image individually.
-This function separates overrapping mask in a mask image using erosion and dilation algorithm (keneral size 7x7).   
+To make input data in Mask-RCNN, a python file below separates overrapping mask in a original mask image using erosion and dilation algorithm (keneral size 7x7).   
 Also, it reduces image size by half (1024x1024) and changes format from tiff to jpg to reduce memory load
 ```bash
    cd MASK_RCNN_ROOT/samples/nucleus
