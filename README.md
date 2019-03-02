@@ -20,7 +20,7 @@ Download [preprocessed images](https://drive.google.com/file/d/1uF_hxZJZTh8eWSwY
 Download [pretrained model](https://drive.google.com/drive/folders/1SF2727HImKzzhWZ_cCmJkhf2sYenyxgi?usp=sharing)
 
 ```bash
-   mv downloaded_model  MASK_RCNN_ROOT/
+   mv downloaded_model  MASK_RCNN_ROOT/logs/nucleus20190130T0908/
 ```
 
 
