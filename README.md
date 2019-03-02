@@ -8,11 +8,20 @@ Source code was implemented on ubuntu 16.04, python3.5, CUDA9.0, and tensorflow1
 ## Dataset
 
 Download [preprocessed images](https://drive.google.com/file/d/1uF_hxZJZTh8eWSwYuCP8gMGQw3ZxYEwD/view?usp=sharing) for segmentation   
+
 ```bash
    mv downloaded_images  MASK_RCNN_ROOT/datasets/nucleus
 ```
 
 (optional) Download [original nucleus dataset](http://andrewjanowczyk.com/wp-static/nuclei.tgz)
+
+## Model
+
+Download [pretrained model] (https://drive.google.com/drive/folders/1SF2727HImKzzhWZ_cCmJkhf2sYenyxgi?usp=sharing)
+
+```bash
+   mv downloaded_model  MASK_RCNN_ROOT/
+```
 
 
 ## (optinal) Data preparation
