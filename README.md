@@ -1,4 +1,4 @@
-# Mask R-CNN for nucleus Detection and Segmentation 
+# Mask R-CNN for nucleus Detection and Segmentation (in progress)
 
 This source includes nucleui segmentation code using Mask-RCNN.   
 Source code was implemented on ubuntu 16.04, python3.5, CUDA9.0, and tensorflow1.12.0.
