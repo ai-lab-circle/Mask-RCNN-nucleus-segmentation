@@ -4,9 +4,6 @@ This source includes nucleui segmentation code using Mask-RCNN.
 
 Code was implemented on ubuntu 16.04, python3.5, CUDA9.0, and tensorflow1.12.0.
 
-Source code was implemented on ubuntu 16.04, python3.5, CUDA9.0, and tensorflow1.12.0.
-
-
 
 
 ## Dataset
@@ -47,7 +44,7 @@ Also, it reduces image size by half (1024x1024) and changes format from tiff to 
 
 ## Result
 
-![Alt Text](https://github.com/ai-lab-circle/Mask-RCNN-nucleus-segmentation/results.png)
+![Alt Text](https://github.com/ai-lab-circle/Mask-RCNN-nucleus-segmentation/blob/master/results.png)
 
 ## Citation
 
