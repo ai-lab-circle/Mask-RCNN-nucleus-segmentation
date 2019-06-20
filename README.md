@@ -42,9 +42,15 @@ Also, it reduces image size by half (1024x1024) and changes format from tiff to 
 ```
 
 
-## Result
+## Current Result
 
 ![Alt Text](https://github.com/ai-lab-circle/Mask-RCNN-nucleus-segmentation/blob/master/results.png)
+
+
+## TODO
+
+separate image into several parts, segment indepentantly.
+
 
 ## Citation
 
